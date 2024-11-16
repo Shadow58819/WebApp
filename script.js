@@ -6,7 +6,7 @@ function checkPassword() {
 	var password = document.getElementById('password').value;
 	var correctPassword = '1234';
 	if (password === correctPassword) {
-		window.location = "Index_2.html";
+		window.location = "index_2.html";
 	}
 	else {
 		alert("Falches Passwort!\nBitte versuche es erneut.")

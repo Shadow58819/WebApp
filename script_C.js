@@ -52,5 +52,5 @@ function clearDisplay() {
 }
 
 function back() {
-    window.location = "Index_2.html";
+    window.location = "index_2.html";
 }
