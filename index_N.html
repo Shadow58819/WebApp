@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Muaz to-do Liste</title>
+    <link rel="shortcut icon" href="res/icon.ico">
+    <link rel="stylesheet" href="style_N.css">
+    <script src="script_N.js"></script>
+</head>
+<body>
+    <header>
+        <div class="h1">
+            To-Do Liste
+        </div>
+    </header>
+
+    <div class="d1">
+        <button class="btn-b" onclick="back()">Zurück</button>
+        <input class="di1" type="text" id="new-task" placeholder="Neue Aufgabe hinzufügen"  onkeydown="enter(event)">
+        <button class="db1" onclick="addTask()">Hinzufügen</button>
+        <div class="d2">
+            <ul class="dl1" id="todo-list"></ul>
+        </div>
+    </div>
+</body>
+</html>
