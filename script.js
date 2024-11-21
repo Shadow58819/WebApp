@@ -6,8 +6,8 @@ function checkPassword() {
 	var password = document.getElementById('password').value;
 	var correctPassword = '1234';
 	var essentialLeonS = 'leons';
-	var dcLeonM = 'leonm';
-		let lmdc = 100;
+	var dcLeonM = 'leom';
+		let lmdc = 1000;
 	var alexRR = 'alex';
 	if(password === correctPassword) {
 		window.location = "index_2.html";
