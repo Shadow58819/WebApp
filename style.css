@@ -5,93 +5,70 @@ body {
   background-color: #121211;
 }
 
-    .h1 {
-      color: #8a69ff;
-      font-family: fantasy;
-      font-size: 90px;
-    }
+  .h1 {
+    color: #8a69ff;
+    font-family: fantasy;
+    font-size: 90px;
+  }
 
-    header {
-      border-radius: 35px;
-      box-shadow: 0px 0px 10px 10px #000000;
-      height: 160px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #383838;
-      margin: 1%;
-    }
+  header {
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 10px #000000;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #383838;
+    margin: 1%;
+  }
 
-    .d1 {
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #383838;
-    }
+  .d {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #383838;
+  }
 
-    .db1 {
-      font-size: 16px;
-      border-radius: 7px;
-      box-shadow: 0px 0px 5px 5px #000000;
-      background-color: #383838;
-      color: white;
-      border: none;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      height: 30px;
-      width: 120px;
-      transition: 0.2s;
-    }
+  .db {
+    font-size: 16px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 5px #000000;
+    background-color: #383838;
+    color: white;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    transition: 0.2s;
+  }
 
-    .db1:hover {
-      box-shadow: 0px 0px 7px 7px #000000;
-      background-color: #262626;
-      color: white;
-      justify-content: center;
-      align-items: center;
-    }
+  .db:hover {
+    box-shadow: 0px 0px 7px 7px #000000;
+    background-color: #262626;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .db2 {
-      font-size: 16px;
-      border-radius: 7px;
-      box-shadow: 0px 0px 5px 5px #000000;
-      background-color: #383838;
-      color: white;
-      border: none;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      height: 30px;
-      width: 120px;
-      transition: 0.2s;
-    }
+  .di {
+    font-size: 16px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 5px #000000;
+    margin: 10px;
+    border: none;
+    color: white;
+    background-color: #383838;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+  }
 
-    .db2:hover {
-      box-shadow: 0px 0px 7px 7px #000000;
-      background-color: #262626;
-      color: white;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .di1 {
-      font-size: 16px;
-      border-radius: 7px;
-      box-shadow: 0px 0px 5px 5px #000000;
-      margin: 10px;
-      border: none;
-      color: white;
-      background-color: #383838;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      height: 30px;
-      width: 120px;
-    }
-
-    .di1:focus{
-      outline: none;
-      box-shadow: 0px 0px 7px 7px #000000;
-    }
+  .di:focus{
+    outline: none;
+    box-shadow: 0px 0px 7px 7px #000000;
+  }

@@ -1,31 +1,35 @@
 let logout = false;
 
-function myfunc() {
+function logoutBTN() {
     if (logout) {
-        myfunc0();
+        locLogout();
     }
     logout = true;
-    myfuncDelay();
+    logoutDelay();
 }
 
-function myfuncDelay() {
+function logoutDelay() {
     setTimeout(() => {
         logout = false;
     }, 1000);
 }
 
-function myfunc0() {
+function locLogout() {
     window.location = "index.html";
 }
 
-function myfunc1() {
+function locTTT() {
     window.location = "index_T.html";
 }
 
-function myfunc2() {
+function locCalculator() {
     window.location = "index_C.html";
 }
 
-function myfunc3() {
+function locReminder() {
     window.location = "index_N.html"
+}
+
+function locGPT() {
+    window.location = "index_GPT.html"
 }

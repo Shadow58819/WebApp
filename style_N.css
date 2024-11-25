@@ -85,6 +85,8 @@ header {
     height: 40px;
     width: 185px;
     transition: 0.4s;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 .di1:focus{

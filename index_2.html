@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-  <head>
-    <title>Muaz</title>
-    <link rel="shortcut icon" href="res/icon.ico">
-    <link rel="manifest" href="manifest.json">
-		<link rel="stylesheet" href="style_2.css">
-    <script src="script_2.js"></script>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Muaz</title>
+  <link rel="shortcut icon" href="res/icon.ico">
+  <link rel="stylesheet" href="style_2.css">
+  <script src="script_2.js"></script>
 
-  </head>
+</head>
 
-  <body>
-    <header>
-			<a class="h1">Hallo, ich bin Muaz!</a>
-		</header>
-      <div class="dh">
-        <div class="d1">
-          <button class="db1" onclick="myfunc()">log-out<br>(Doppelklick)</button>
-        </div>
-
-        <div class="d2">
-          <button class="db2" onclick="myfunc1()">Tic Tac Toe</button>
-        </div>
-
-        <div class="d3">
-          <button class="db3" onclick="myfunc2()">Rechner</button>
-        </div>
-
-        <div class="d4">
-          <button class="db4" onclick="myfunc3()">To-Do</button>
-        </div>
+<body>
+  <header>
+    <a class="h1">Hallo, ich bin Muaz!</a>
+  </header>
+    <div class="dh">
+      <div class="d1">
+        <button class="db1" onclick="logoutBTN()">log-out<br>(Doppelklick)</button>
       </div>
-  </body>
+
+      <div class="d1">
+        <button class="db1" onclick="locTTT()">Tic Tac Toe</button>
+      </div>
+
+      <div class="d1">
+        <button class="db1" onclick="locCalculator()">Rechner</button>
+      </div>
+
+      <div class="d1">
+        <button class="db1" onclick="locReminder()">To-Do</button>
+      </div>
+      
+      <div class="d1">
+        <button class="db1" onclick="locGPT()">Chatbot<br>(in dev!)</button>
+      </div>
+    </div>
+</body>
 </html>

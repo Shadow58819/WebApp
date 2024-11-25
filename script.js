@@ -6,8 +6,8 @@ function checkPassword() {
 	var password = document.getElementById('password').value;
 	var correctPassword = '1234';
 	var essentialLeonS = 'leons';
-	var dcLeonM = 'leom';
-		let lmdc = 1000;
+	var dcLeonM = 'leonm';
+		let lmdc = 100;
 	var alexRR = 'alex';
 	if(password === correctPassword) {
 		window.location = "index_2.html";
@@ -22,7 +22,7 @@ function checkPassword() {
 			lmdc--;
 		}
 	} else if (password == alexRR) {
-		window.location = 'https://media.tenor.com/onTlUVMtWy4AAAAM/rickroll-rick.gif';
+		window.location = './res/AlexRR.gif';
 	} else {
 		alert("Falches Passwort!\nBitte versuche es erneut.")
 	}
