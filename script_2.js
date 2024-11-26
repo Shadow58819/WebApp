@@ -22,6 +22,10 @@ function locTTT() {
     window.location = "index_T.html";
 }
 
+function locFB() {
+    window.location = "index_FB.html"
+}
+
 function locCalculator() {
     window.location = "index_C.html";
 }
