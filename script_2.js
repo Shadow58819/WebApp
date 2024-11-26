@@ -33,3 +33,7 @@ function locReminder() {
 function locGPT() {
     window.location = "index_GPT.html"
 }
+
+function locCloud() {
+    window.location = "index_CL.html"
+}

@@ -11,7 +11,6 @@ body {
         font-family: fantasy;
         font-size: 40px;
     }
-
     header {
         border-radius: 35px;
         box-shadow: 0px 0px 10px 10px #000000;
@@ -19,8 +18,9 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #383838;
-        margin: 1%;
+        background: #0f0e0e;
+        margin: 20px;
+        position: relative;
     }
 
     .msg {
