@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Muaz Chatbot</title>
+    <link rel="shortcut icon" href="../res/icon.ico">
+    <link rel="stylesheet" href="style_GPT.css">
+</head>
+<body>
+    <header>
+        <a class="h1">Chatbot (ChatGPT api)</a>
+    </header>
+    <div class="chat" id="chat">
+    </div>
+    <div class="db">
+        <button class="btn btn-b" onclick="back()">Zurück</button>
+        <form class="di" onsubmit="msgGPT(); return false;">
+            <input class="input" id="msgInput" type="text" placeholder="..."></input>
+            <button class="btn  btn-s">/\</button>
+        </form>
+    </div>
+    <script src="script_GPT.js"></script>
+</body>
+</html>

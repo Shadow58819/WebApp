@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Muaz Tic Tac Toe</title>
+  <link rel="shortcut icon" href="../res/icon.ico">
+  <link rel="stylesheet" href="style_T.css">
+</head>
+
+<body>
+  <div class="d3">
+    <div class="pillar1"></div>
+    <div class="pillar2"></div>
+  </div>
+  
+  <div class="d1">
+    <button class="btn-b" onclick="back()">Zurück</button>
+  </div>
+
+  <div class="d2">
+    <button class="btn-r" onclick="resetBoard(true)">neustart</button>
+    <button class="btn-rs" onclick="resetScore()">Score zurücksetzen</button>
+  </div>
+
+  <div class="wrapper">
+    <div class="heading">
+      Tic Tac Toe
+    </div>
+    <div class="result" id="result"></div>
+  </div>
+
+  <div class="tic-tac-toe-board">
+    <div class="cell" onclick="makeMove(0)"></div>
+    <div class="cell" onclick="makeMove(1)"></div>
+    <div class="cell" onclick="makeMove(2)"></div>
+    <div class="cell" onclick="makeMove(3)"></div>
+    <div class="cell" onclick="makeMove(4)"></div>
+    <div class="cell" onclick="makeMove(5)"></div>
+    <div class="cell" onclick="makeMove(6)"></div>
+    <div class="cell" onclick="makeMove(7)"></div>
+    <div class="cell" onclick="makeMove(8)"></div>
+  </div>
+
+  <div class="footer">
+    <div class="score-text">\/ Spielstand: \/</div>
+    <div class="score-counter">
+      <div class="score" id="score-x"></div>
+      <div class="score" id="score-o"></div>
+    </div>
+  </div> 
+
+  <script src="script_T.js"></script>
+</body>
+</html>
