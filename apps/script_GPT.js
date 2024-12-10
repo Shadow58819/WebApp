@@ -5,7 +5,7 @@ async function msgGPT(){
 }
 
 async function askChatGPT(question) {
-    const apiKey = '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';
+    // const apiKey = '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';
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
     const response = await fetch(apiUrl, {

@@ -23,7 +23,7 @@ function locTTT() {
 }
 
 function locFB() {
-    window.location = "apps/index_FB.html"
+    // window.location = "apps/index_FB.html"
 }
 
 function locCalculator() {
@@ -39,5 +39,5 @@ function locGPT() {
 }
 
 function locCloud() {
-    window.location = "apps/index_CL.html"
+    // window.location = "apps/index_CL.html"
 }
