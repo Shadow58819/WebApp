@@ -5,6 +5,7 @@ function Passwordsec() {
 function checkPassword() {
 	var password = document.getElementById('password').value;
 	var correctPassword = '1234';
+	var hassanHuhn = 'hassan';
 	var LeonS = 'leons';
 	var dcLeonM = 'leonm';
 		let lmdc = 1;
@@ -24,6 +25,8 @@ function checkPassword() {
 		}
 	} else if (password == alexRR) {
 		window.location = './res/img/AlexRR.gif';
+	} else if (password == hassanHuhn) {
+		window.location = './res/img/Chicken.gif';
 	} else {
 		alert("Falches Passwort!\nBitte versuche es erneut.")
 	}
