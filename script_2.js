@@ -23,7 +23,7 @@ function locTTT() {
 }
 
 function locFB() {
-    // window.location = "apps/index_FB.html"
+    window.location = "apps/index_FB.html"
 }
 
 function locCalculator() {
