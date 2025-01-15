@@ -98,6 +98,7 @@ body {
     text-align: center;
     height: 30px;
     width: 120px;
+    transition: 0.2s;
   }
 
   .di:focus{

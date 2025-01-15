@@ -28,7 +28,10 @@ function checkPassword() {
 	} else if (password == hassanHuhn) {
 		window.location = './res/img/Chicken.gif';
 	} else {
-		alert("Falches Passwort!\nBitte versuche es erneut.")
+		document.getElementById("password").style.backgroundColor = "#ff8383";
+		setTimeout(() => {
+			document.getElementById("password").style.backgroundColor = "#383838";
+		}, 200);
 	}
 }
 

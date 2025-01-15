@@ -6,11 +6,13 @@ function logoutBTN() {
     }
     logout = true;
     logoutDelay();
+    document.getElementById("log-out").style.backgroundColor = "#ff8383";
 }
 
 function logoutDelay() {
     setTimeout(() => {
         logout = false;
+        document.getElementById("log-out").style.backgroundColor = "#333333";
     }, 1000);
 }
 
