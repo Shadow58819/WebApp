@@ -12,10 +12,20 @@
 		<header class="header">
 			<a class="h1">Hallo, ich bin Muaz!</a>
 		</header>
-		<div class="d">
-			<button class="db" onclick="Passwordsec()">Passwort:</button>
-			<input class="di" id="password" type="password" onkeydown="enter(event)"></input>
-			<button class="db" id="checkPassword" onclick="checkPassword()">Weiter</button>
+
+		<div class="wrapper">
+			<form class="fg" action="https://www.google.com/search" method="get" name="searchform">
+				<div class="dropdown">
+					<button class="d-btn-l">🏠︎</button>
+					<div class="dropdown-content">
+						<input class="di-sec" id="password" placeholder="Passwort" type="password" onkeydown="enter(event)"></input>
+						<div class="d-btn-r" onclick="checkPassword()">➤</div>
+					</div>
+				</div> 
+				<input class="di" name="sitesearch" type="hidden">
+				<input class="di" autocomplete="on" name="q" required="required" placeholder="Suche mit Google" type="text">
+				<button class="d-btn-r" type="submit">➤</button>
+			</form>
 		</div>
 	</body>
 </html>

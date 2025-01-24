@@ -1,7 +1,3 @@
-function Passwordsec() {
-	alert("Das Passwort lautet 1234.")
-}
-
 function checkPassword() {
 	var password = document.getElementById('password').value;
 	var correctPassword = '1234';
@@ -11,7 +7,7 @@ function checkPassword() {
 		let lmdc = 1;
 	var alexRR = 'alex';
 	if(password === correctPassword) {
-		window.location = "index_2.html";
+		window.location = "./index_2.html";
 	} else if (password == LeonS) {
 		alert("Aktion leider nicht verfügbear,\nVersuche es später nochmal.")
 		// window.location = "";
