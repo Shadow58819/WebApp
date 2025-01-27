@@ -140,17 +140,21 @@ body {
   .dropdown-content {
     display: flex;
     position: absolute;
-    align-items: center;
+    align-items: start;
     z-index: -1;
-    min-width: 50px;
-    transform: scale(10%);
-    translate: -77.5px -37.5px;
+    max-width: 0px;
+    min-width: 0px;
+    transform: scale(20%);
+    translate: 10px -43px;
+    rotate: 10deg;
     transition: 0.3s;
   }
   
   .dropdown:hover .dropdown-content {
     display: flex;
     min-width: 200px;
+    max-width: 200px;
     translate: 0px 0px;
+    rotate: 0deg;
     transform: scale(100%);
   }
