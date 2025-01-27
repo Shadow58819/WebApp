@@ -54,13 +54,17 @@ body {
     100% {background-position: 0% 0;}
   }
 
-  .fg {
+  .wrapper {
     margin-top: 30px;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #383838;
+  }
+  .fg {
+    display: flex;
+    width: 80%;
   }
 
   .d-btn-l, .d-btn-r {
@@ -112,17 +116,19 @@ body {
     align-items: center;
     text-align: center;
     height: 40px;
-    width: 75%;
     transition: 0.2s;
   }
-
-  .di:focus, .di-sec:hover {
-    outline: none;
-    box-shadow: 0px 0px 7px 7px #000000;
+  .di {
+    width: 100%;
   }
-
   .di-sec {
     border-radius: 12px 0px 0px 12px;
+    width: 125px;
+  }
+
+  .di:focus, .di-sec:focus {
+    outline: none;
+    box-shadow: 0px 0px 7px 7px #000000;
   }
   
   .dropdown {
@@ -136,10 +142,10 @@ body {
     position: absolute;
     align-items: center;
     z-index: -1;
-    min-width: 20px;
+    min-width: 50px;
     transform: scale(10%);
-    translate: -10px -50px;
-    transition: 0.2s;
+    translate: -77.5px -37.5px;
+    transition: 0.3s;
   }
   
   .dropdown:hover .dropdown-content {

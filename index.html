@@ -14,14 +14,14 @@
 		</header>
 
 		<div class="wrapper">
+			<div class="dropdown">
+				<button class="d-btn-l">🏠︎</button>
+				<div class="dropdown-content">
+					<input class="di-sec" id="password" placeholder="Passwort" type="password" onkeydown="enter(event)"></input>
+					<div class="d-btn-r" onclick="checkPassword()">➤</div>
+				</div>
+			</div> 
 			<form class="fg" action="https://www.google.com/search" method="get" name="searchform">
-				<div class="dropdown">
-					<button class="d-btn-l">🏠︎</button>
-					<div class="dropdown-content">
-						<input class="di-sec" id="password" placeholder="Passwort" type="password" onkeydown="enter(event)"></input>
-						<div class="d-btn-r" onclick="checkPassword()">➤</div>
-					</div>
-				</div> 
 				<input class="di" name="sitesearch" type="hidden">
 				<input class="di" autocomplete="on" name="q" required="required" placeholder="Suche mit Google" type="text">
 				<button class="d-btn-r" type="submit">➤</button>
