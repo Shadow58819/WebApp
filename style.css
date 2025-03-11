@@ -137,7 +137,7 @@ body {
     transition: 0.2s;
   }
   
-  .dropdown-content {
+  .dropdown-content, .s-main {
     display: flex;
     position: absolute;
     align-items: start;
@@ -149,12 +149,20 @@ body {
     rotate: 10deg;
     transition: 0.3s;
   }
+  .s-main {
+    z-index: -2;
+    rotate: 20deg;
+  }
   
-  .dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-content, .s-main {
     display: flex;
     min-width: 200px;
     max-width: 200px;
     translate: 0px 0px;
     rotate: 0deg;
     transform: scale(100%);
+  }
+
+  .dropdown:hover .s-main, .github {
+    translate: 0px 60px;
   }
